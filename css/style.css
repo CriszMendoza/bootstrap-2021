@@ -1,0 +1,56 @@
+#footer{
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+
+#footer a{
+  color: white;
+  text-decoration-line: none;
+}
+
+#nav img{
+  width: 80px;
+}
+
+.text-platzi{
+  color: #97c93e !important;
+}
+
+#main .carousel-item img {
+  max-height:70vh;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(70%);
+}
+
+#carousel{
+  position: relative;
+}
+
+#carousel .overlay{
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.overlay .container, .overlay .row{
+  height: 100%;
+}
+
+.btn-platzi{
+  color: white;
+  background-color: #97c93e;
+}
+
+.place-time{
+  background: #343a40;
+}
+
+.place-time img{
+  width: 100%;
+}
+
